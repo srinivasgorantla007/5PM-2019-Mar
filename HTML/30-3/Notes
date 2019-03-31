@@ -1,0 +1,96 @@
+Hyperlinks : 
+  in html hyperlinks are defined with a tag. 
+  hyperlinks are using for load url's ,html content, pdf content, ppt content etc.
+
+  syn :
+   <a href="url">Link Name </a>
+   note : 
+   for hyperlinks href is a special attribute
+   for hyperlinks target also a special attribute using for load files in new tab.
+   by default hyperlinks are loading same tab. 
+    
+   Hyperlinks are having default style bluecolor underline
+
+
+pre tag :  
+   in html pre tag is using for working with preferable format.
+
+  syn :
+
+   <pre>   
+           function  fun()
+           {
+
+           }
+   </pre>
+
+HTML Comments :  
+
+     comments are using for comment html code 
+
+     comments will not execute in browser 
+
+     syn :
+
+     <!--  
+            HTML CODE 
+
+           -->
+   comments are mostly using  for specify headings , and dividing html content into parts 
+
+HTML List Items :
+
+    HTML is providing fallowing list items.
+
+    1. ordered List
+    2. unordered List
+    3. definetion List
+
+  1. ordered List  : list items are providing in number order.
+
+   <ol>
+    <li> item Name</li> 
+    <li> item Name</li> 
+    <li> item Name</li> 
+   </ol>
+
+   1.ItemName
+   2.ItemName
+   3.ItemName 
+
+   1. unordered List  : list items are providing in dot order.
+
+   <ul>
+    <li> item Name</li> 
+    <li> item Name</li> 
+    <li> item Name</li> 
+   </ul>
+
+   .ItemName
+   .ItemName
+   .ItemName 
+
+3. defination List   :  list items are providing in defination  order.
+
+    <dl>
+
+       <dt >  Defination Title </dt>  
+       <dd>  Defination Description </dd>
+
+        <dt >  Defination Title </dt>  
+       <dd>  Defination Description </dd>
+
+     </dl>  
+
+
+
+
+
+
+
+
+
+
+
+
+
