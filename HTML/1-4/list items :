@@ -1,0 +1,44 @@
+list items :
+1.ordered List  :  ol , li 
+2.un ordered List : ul ,li 
+3.Def List : dl , dt ,dd 
+
+ol : create oredered List
+ul : create unordered List
+li : list item 
+dl : def list 
+dt : def tittle 
+dd : def des 
+
+HTML images :
+
+ img tag : in html to display images  img is the tag
+
+ syn : <img src="path" />
+
+loading images :
+ 1. loading images from same folder.
+    <img src="1.jpg"/>
+ 2. loading images from another folder.
+     <img src="foldername/1.jpg"/>
+ 3. images and html files are in separate folders.
+     <img src="../foldername/1.jpg"/>
+
+ 4. loading images from url 
+
+  <img src="urlAddress" />
+
+5 . from another drive
+   <img src="drive path" />
+
+
+
+
+
+
+
+
+
+
+
+
