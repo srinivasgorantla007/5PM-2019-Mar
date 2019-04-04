@@ -1,0 +1,28 @@
+CSS : 
+
+types of CSS Files
+1. inline
+2. internal 
+3. external
+
+1. inline Style :  
+
+2. internal Style:
+
+3. external Style : 
+
+    File.css
+    MyFile.css
+    Style.css
+    MyStyle.css
+
+    index.html + File.css 
+     index.html <---- File.css 
+ index.html <---- File.css, File1.css,File2.css
+
+
+
+
+
+
+
