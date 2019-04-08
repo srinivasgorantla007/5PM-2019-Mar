@@ -1,0 +1,52 @@
+CSS 
+1. inline style : element 
+2.internal style  : document / file 
+3. external  : application 
+
+Inline : Element Specific 
+
+<p style="color:red"> Hello CSS </p>
+<p style="color:red"> Hello CSS </p>
+<p style="color:red"> Hello CSS </p>
+
+     2. Internal Style : document specific
+1. File.html   : Internal Style
+2. File1.html : Internal Style
+3. File2.html : Internal Style
+
+How to write ? 
+ <style > 
+Styles will be here 
+  </style>
+
+ 3.External Style Sheet :   Application specific 
+           File.css 
+
+1. File.html   : File.css
+2. File1.html : File.css
+3. File2.html : File.css
+
+how to load ? 
+in File.html
+ <link rel="stylesheet" href="File.css"/>
+
+This is a Common Style Sheet For complete Application .
+
+Note : link tag is using for linking external style sheet into html file.
+
+here href is a attribute using for reference external file.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
