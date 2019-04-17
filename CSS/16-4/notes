@@ -1,0 +1,129 @@
+border : 
+    border-width  : thickness
+    border-style  : solid line dashed groove
+    border-color : name,rgb,#code
+    border-radius : 10px (CSS3)
+
+      border-width : 10px
+             All sides 
+      border-width : 10px 20px
+           top-bottom , right-left
+      border-width : 10px 20px 30px 
+         top , right-left ,bottom
+      border-width : 10px 20px 30px 40px 
+         top,right,bottom,left
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Border</title>
+	<style type="text/css">
+		.first{ border-width: 4px;
+		     border-style: solid;
+		      border-color: red;
+		       }
+		 .second{
+		     border-width: 4px;
+		     border-style: dashed;
+		      border-color: blue;
+		       }
+	</style>
+</head>
+<body>
+<p class="first"> Hello CSS</p>
+<p class="second"> Hello CSS</p>
+</body>
+</html>
+
+
+
+
+ <style type="text/css">
+		p{ 
+            border-width:4px;
+            border-style: solid;
+            border-color: green;
+			border-radius: 10px 20px; 
+		   background-color: yellow;
+		   text-align: center;}
+	</style>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Border-radius-menu</title>
+	<style type="text/css">
+		button{ 
+            border-width:4px;
+            border-style: solid;
+            border-color: yellow;
+			border-radius: 5px 10px; 
+		   background-color: red;
+		   text-align: center;
+		    width: 100px;
+		    height: 40px;
+		     color: white;
+		     font-style: italic;
+		    }
+	</style>
+</head>
+<body>
+<button>CSS</button>
+<button>CSS</button>
+<button>CSS</button>
+ <hr style="color: blue">
+</body>
+</html>
+
+border shorthand method :
+
+ border : width style color 
+
+border : 4px solid red ;
+border : 2px dashed green ;
+
+border: 2px 4px solid green red ;
+
+
+outline : extra decoration 
+ outline-width
+ outline-style
+ outline-color
+
+ outline : 4px solid green;
+
+ note : margin calculation outline is not added 
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>outline</title>
+	<style type="text/css">
+		p{ border:4px solid green; 
+		     outline: 2px dashed red;}
+	</style>
+</head>
+<body>
+<p> hello css</p>
+</body>
+</html>
+
+ write a program create a image gallery with 4 images apply
+  all box model properties 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

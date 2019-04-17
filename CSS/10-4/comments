@@ -1,0 +1,15 @@
+HTML comments :
+
+ <!---  
+      html code
+       -- >
+  CSS comments : 
+  
+  /*  single line   */
+    /*  multi line   */
+
+
+  js comments 
+
+  // single line 
+  /*  multiple lines  */      

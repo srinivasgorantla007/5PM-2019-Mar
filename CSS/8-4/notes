@@ -1,0 +1,53 @@
+CSS :
+1. inline : style inside element (element specfic)
+      style attribute 
+
+2. internal : style inside document : style tag
+<style>   CSS </style>
+
+3. external  : File.CSS
+    application specific 
+    <link rel="stylesheet" href="Styele.css"/>
+
+Loading Process 
+ Style loading process is based on the stack order.
+  internal  --- >  external   (external) 
+  external  -----> internal  (internal)
+  internal  --- >  external ---> inline   (inline -->external-->internal) 
+  external  -----> internal --> inline    (inline--> internal--> external)
+
+ color : color is a style property 
+             color is a font color 
+             color is a text color 
+
+             color="value"
+ How we can specify colors :
+
+    1.  color : name  (red,green,blue,orange)
+
+    2.  color : rgb()   (red,green,blue)  (0-255,0-255,0-255)
+       rgb(0,0,0)  rgb(255,255,255)  rgb(0,0,255)  rgb(0,255,0)
+         rgb(255,0,0) 
+   
+   3. Hash value :    combination of charecters and numbers 
+        #000 #FFF   #234fdc 
+
+
+ background-color :  background-color is a style property 
+             backgroundcolor is a background color  of element
+
+             1. name
+             2. rgb
+             3. hash  
+
+class specifier :  
+
+   class is the important specifier for html loading in css .
+    in Styles classes are recogniging using a dot symbol.
+    in html element  class is a special attribute.
+
+
+
+
+
+

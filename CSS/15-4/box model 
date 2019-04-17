@@ -1,0 +1,63 @@
+box model :
+
+ Note :  in HTML every element is a box 
+
+ For  every box below CSS properties are avialable .
+
+   1. width : horizontal space  
+   2. height : vertical space 
+
+   3. padding : inner space of an element 
+
+   this space is between content and element edge
+    padding :  10px : all sides 
+    padding : 10px  20px  (top-bottom  right-left)
+    padding : 10px 20px 30px ( top , right-left, bottom)
+    padding : 10px 20px 30px 40px ( top right bottom left) 
+
+    padding-top : 20px;
+    padding-right: 20px
+    padding-bottom: 20px
+    padding-left: 20px
+
+
+   4. margin : outer space  of an element 
+    A space between border to border of two differenet elements 
+
+    margin :  10px : all sides 
+    margin : 10px  20px  (top-bottom  right-left)
+    margin : 10px 20px 30px ( top , right-left, bottom)
+    margin : 10px 20px 30px 40px ( top right bottom left) 
+
+    margin-top : 20px;
+    margin-right: 20px
+    margin-bottom: 20px
+    margin-left: 20px
+
+
+
+   5. border : decoration
+
+        border-width : 4px
+        border-style : solid
+        border-color : red
+
+        boder : 2px solid red;
+        border : border-width  border-style border-color;
+
+
+
+
+
+
+
+
+
+
+
+
+
+   6. outline -extra decoration
+        outline-width
+        outline-style
+        outline-color
