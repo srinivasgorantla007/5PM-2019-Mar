@@ -1,0 +1,19 @@
+
+<p> hello JS</p>
+<style type="text/css">
+	p{
+		background-color: orange;
+		text-align: center;
+	}
+</style>
+<script type="text/javascript">
+	document.getElementsByTagName("p")[0].addEventListener("click",MyFun);
+	function MyFun()
+	{
+		//alert("p clicked");
+document.getElementsByTagName("p")[0].innerHTML="Hello JS";	
+document.getElementsByTagName("p")[0].style.color="white";
+document.getElementsByTagName("p")[0].style.fontStyle="italic";
+	}
+
+</script>

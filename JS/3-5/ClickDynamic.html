@@ -1,0 +1,27 @@
+
+<p> hello JS</p>
+<p> hello JS</p>
+<p> hello JS</p>
+<p> hello JS</p>
+<style type="text/css">
+	p{
+		background-color: orange;
+		text-align: center;
+	}
+</style>
+<script type="text/javascript">
+
+var n= document.getElementsByTagName("p").length
+alert(n)
+	for (var i = 0; i < document.getElementsByTagName("p").length; i++) {
+document.getElementsByTagName("p")[i].addEventListener("click",MyFun)
+	function MyFun()
+	{
+ this.style.color="white";
+	}
+
+	}
+
+	
+
+</script>

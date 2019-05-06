@@ -1,0 +1,41 @@
+javascript :
+
+in html we write javascript in two different ways 
+ 1. internal script
+ 2. external script 
+
+  1. internal script:   
+  internal scripts are written from script tag.
+  <script >
+      js code 
+  </script>
+
+1. external script:   
+  external scripts are written from  separate js file.
+  File.js
+ access (including) into html :
+ <script src="File.js"></script>
+
+Wrong Process :
+
+<script ></script>  : first
+<body></body>    : second
+
+
+Right Process :
+
+<body></body>    : first
+<script ></script>  : second
+
+
+
+
+
+
+
+
+
+
+
+
+

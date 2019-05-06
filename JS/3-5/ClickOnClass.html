@@ -1,0 +1,24 @@
+
+<p class="first"> hello JS</p>
+<p class="first"> hello JS</p>
+<style type="text/css">
+	p{
+		background-color: orange;
+		text-align: center;
+	}
+</style>
+<script type="text/javascript">
+	document.getElementsByClassName("first")[0].addEventListener("click",MyFun);
+	document.getElementsByClassName("first")[1].addEventListener("click",MyFun1);
+	function MyFun()
+	{
+	//alert("p clicked");
+	document.getElementsByTagName("p")[0].style.color="white";
+	}
+	function MyFun1()
+	{
+	//alert("p clicked");
+	document.getElementsByTagName("p")[1].style.color="white";
+	}
+
+</script>

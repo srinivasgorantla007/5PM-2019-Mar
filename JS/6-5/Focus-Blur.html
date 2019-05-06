@@ -1,0 +1,22 @@
+
+<input type="text" name="name" placeholder="username" id="txt">
+
+<style type="text/css">
+	p{
+		background-color: orange;
+	}
+</style>
+<script type="text/javascript">
+document.getElementById('txt').addEventListener("focus",fun)
+document.getElementById('txt').addEventListener("blur",fun1)
+
+	function fun()
+	{
+document.getElementById('txt').style.backgroundColor="yellow";
+	}
+	function fun1()
+	{
+document.getElementById('txt').style.backgroundColor="";	
+	}
+
+</script>

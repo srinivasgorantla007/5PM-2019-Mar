@@ -1,0 +1,23 @@
+<p class="one">First</p>
+<p class="one">Second</p>
+<p class="two">Third</p>
+<p class="two">fourth</p>
+
+<style type="text/css">
+	.one{ background-color: orange; color: white }
+	.two {background-color: blue; color: white}
+</style>
+<script type="text/javascript">
+ var x=document.getElementsByClassName("one")[0].innerHTML
+ var y=document.getElementsByClassName("one")[1].innerHTML
+
+var a=document.getElementsByClassName("two")[0].innerHTML
+ var b=document.getElementsByClassName("two")[1].innerHTML
+
+document.write("<ul><li>"+x+ "</li><li> "+ y +
+ "</li></ul>");
+
+document.write("<ol><li>"+a+ "</li><li> "+ b +
+ "</li></ol>");
+
+</script>
