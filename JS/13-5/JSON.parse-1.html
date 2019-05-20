@@ -1,0 +1,28 @@
+<html>
+<meta charset="utf-8">
+
+<script type="text/javascript">
+var JSONArray='[ {"name": "srikanth","age":34,"salary": 40000,"technology": "UI"},{"name": "sri","age":32,"salary": 10000,"technology": "HTML"},{"name": "srikanth","age":34,"salary": 40000,"technology": "UI"},{"name": "sri","age":32,"salary": 10000,"technology": "HTML"},{"name": "srikanth","age":34,"salary": 40000,"technology": "UI"},{"name": "sri","age":32,"salary": 10000,"technology": "HTML"},{"name": "srikanth","age":34,"salary": 40000,"technology": "UI"},{"name": "sri","age":32,"salary": 10000,"technology": "HTML"} ] '
+var jsArray=JSON.parse(JSONArray)
+// document.write(jsArray)
+// document.write("<br>")
+// console.log(jsArray);
+
+// document.write("emps length is ::"+jsArray.length)
+
+for (var i = 0; i < jsArray.length; i++) {
+	jsArray[i]
+document.write ("name is ::" +jsArray[i].name);
+document.write("<br>")
+document.write ("age is ::" +jsArray[i].age);
+document.write("<br>")
+document.write ("salary is ::" +jsArray[i].salary);
+document.write("<br>")
+document.write("<hr>")
+}
+
+
+
+document.write("<br>")
+	</script>
+	</html>

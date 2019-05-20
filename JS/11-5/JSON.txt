@@ -1,0 +1,41 @@
+JSON : JSON means javascript object notation.
+
+JSON is using for store and transport data between client and server.
+
+JSON is language independent
+
+JSON is platform independent 
+
+JSON files are saved as .json format
+
+JSON is eaesy for machine client system and serversystem
+ 
+JSON is eaesy to understand as a developer.
+
+JSON is lightweight text-data interchangable format
+ between client and server comparing to other formats.
+
+JSON available in two forms 
+ 1. Object
+ 2. Array
+1. Object format :  {  } 
+  syn :  { 
+       "k": v,
+       "k": v,
+       "k": v
+         }
+  Note : key must be a string.
+         value can be anything (String,Number,Array,Obeject,bool,null)
+  key and value separated with : 
+  key-value pair separated with comma 
+  last key-value pair does not have comma 
+
+
+      
+
+
+
+
+
+
+

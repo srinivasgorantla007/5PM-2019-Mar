@@ -1,0 +1,17 @@
+[
+ {
+	 "stuname":"ravi",
+	 "stuage": 32,
+	 "stuid":1001
+},
+{
+	 "stuname":"raja",
+	 "stuage": 31,
+	 "stuid":1002
+},
+{
+	 "stuname":"rani",
+	 "stuage": 32,
+	 "stuid":1003
+}
+]

@@ -1,0 +1,16 @@
+<input type="text" name="fNum" placeholder="FirstNumber" />
+<input type="text" name="sNum"/ placeholder="SecondNum"><br>
+
+<button>Add Numbers</button><br>
+<span></span>
+<script type="text/javascript">
+	document.getElementsByTagName('button')[0].addEventListener("click",fun)
+	function fun()
+	{
+		alert("ok")
+var a=document.getElementsByTagName("input")[0].value;
+var b=document.getElementsByTagName("input")[1].value;
+var c=parseInt(a)+parseInt(b)
+document.getElementsByTagName("span")[0].innerHTML="Summation is " + c;
+	}
+</script>
